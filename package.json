@@ -4,10 +4,8 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --product hosted-service steffqing/721-clone",
-    "auth-kcc": "graph auth https://thegraph.kcc.network/deploy/ 1d2022d68763ccb620bf9707df665029d9cfc2b9b31ac0eafb7e32653357daa1",
+    "auth-kcc": "graph auth https://thegraph.kcc.network/deploy/deployment_key",
     "create-kcc": "graph create mart --node https://thegraph.kcc.network/deploy/",
-    "remove-local": "graph remove --node http://localhost:8020/ steffqing/721-clone",
     "deploy-kcc": "graph deploy mart --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/",
     "test": "graph test"
   },
